@@ -8,7 +8,7 @@ module.exports = {
     mode: "development",
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'nodejs-template',
+            template: "./src/index.html"
         }),
     ],
     output: {
